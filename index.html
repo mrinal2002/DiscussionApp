@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="discussion.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Discussion Portal</h1>
+    </div>
+    <div id="container">
+        <div id="left">
+            <div id="qform">
+                <button id="newquesbtn">New Question</button>
+                <input id="search" type="text" placeholder="search questions..." />
+            </div>
+            <div id="queslist">
+                <div id="discussbox">
+
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="responsebox">
+
+               <div id="question">
+                    <h2>Question</h2>
+                    <div id="query">
+                          <h3 id="title"></h3>
+                          <p id="myquery"></p>
+                    </div>
+                    <p>
+                        <button class="btn">response</button>
+                    </p>
+               </div>
+
+               <div id="commentbox">
+                      <h2 style="margin-bottom:5px">Response</h2>
+                      <div id="addresponse">
+
+                      </div>
+                      <h2>Add Response</h2>
+                      <div id="answer">
+                            <input  type="text" id="writer" placeholder="enter name" />
+                            <textarea rows="2" id="writertext"cols="50" placeholder="Enter comment"></textarea>
+                      </div>
+                      <p><button class="btn" id="resbtn">Submit</button></p>
+               </div>
+
+            </div>
+            <div id="querybox">
+
+                <h1> Welcome To Discussion Portal !</h1>
+                <p>
+                    Enter a Subject and question to get started
+                </p>
+                <p></p><input type="text" id="subject"/></p>
+                <textarea rows="3" cols="50" id="topic"></textarea>
+               <p>
+                <button class="btn"id="querybtn">Submit</button>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+<script src="discussion.js"></script>
+</body>
+
+</html>

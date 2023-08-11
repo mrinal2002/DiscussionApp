@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color:rgb(0, 128, 128);
+    width:100%;
+    height:70px;
+    color:white;
+    padding: 10px 5px;
+}
+
+#container{
+    display:flex;
+    width:100%;
+    height:100vh;
+    border:1px solid black;
+}
+#left{
+    position: relative;
+    width:50%;
+    border:1px solid red;
+    height:100%;
+    display:flex ;
+    flex-direction: column;
+}
+#queslist{
+    width: 100%;
+    height: 90%;
+  background-color: rgb(221, 221, 235);
+}
+#qform{
+   position: relative;
+   width:100%;
+   height:10%;
+   background-color: azure;
+   padding: 10px;
+}
+#newquesbtn{
+    display: inline-block;
+    width:200px;
+    height:40px;
+    background-color: blue;
+    color: white;
+   margin-right: 20px;
+   cursor: pointer;
+   border-radius: 6px;
+}
+#search{
+    display: inline-block;
+    width:250px;
+    height:40px;
+    padding: 5px;
+    border-radius:5px;
+    border:1px solid rgb(199, 189, 189);
+    
+}
+#search:focus{
+    outline: none;
+}
+#discussbox{
+    padding:10px 20px;
+    cursor: pointer;
+}
+/* Right panel design */
+
+#right{
+    position: relative;
+    width:50%;
+    border:1px solid rgb(29, 145, 6);
+    height:100%;
+    /* background-color: antiquewhite; */
+    padding: 15px 50px;;
+}
+/* #querybox{
+    display: none;
+} */
+#subject{
+    display: inline-block;
+    width:250px;
+    height:35px;
+    padding: 10px;
+    margin: 8px 5px;
+    border-radius: 4px;
+    border:1px solid rgb(144, 141, 141)
+
+}
+
+#subject:focus{
+    outline: none;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    display:block;
+    width:100px;
+    height: 30px;
+    float:right;
+    border:1px solid white;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+textarea{
+    padding: 10px;
+}
+/* response box */
+#responsebox{
+    padding: 10px 5px;
+    display: none;
+}
+#question{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#commentbox{
+    
+
+}
+#query{
+    background-color: grey;
+    width:100%;
+    height:80px;
+    margin:10px 0px;
+    padding:8px 6px;
+}
+#answer{
+   margin:15px 2px;
+
+}
+#writer{
+    margin:10px 0px;
+    display: inline-block;
+}
